@@ -61,6 +61,7 @@ namespace Microsoft.BotBuilderSamples
                 .UseStaticFiles()
                 .UseRouting()
                 .UseAuthorization()
+                .UseWebSockets()
                 .UseEndpoints(endpoints =>
                 {
                     endpoints.MapControllers();
